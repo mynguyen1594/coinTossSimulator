@@ -3,15 +3,13 @@ import java.util.Random;
 
 public class Coin {
 		private String sideUp;
-
+		
+		// Default constructor
+		
 		public Coin () {
 			toss();
 		}
-		
-//		public void getSideUp() {
-//			System.out.printf(sideUp);
-//		}
-		
+
 		public String getSideUp() {
 			return sideUp;
 		}
